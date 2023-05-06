@@ -946,18 +946,6 @@ footer .box h3::before {
     height: 6px;
 }
 
-.my-slider.slick-track {
-    display: flex !important;
-}
-
-.my-slider.slick-slide {
-    height: inherit !important;
-    display: flex !important;
-}
-
-.my-slider.slick-slide>div {
-    display: flex;
-}
 
 button,
 select {
@@ -965,6 +953,8 @@ select {
     padding-left: 30px;
     padding-right: 30px;
 }
+
+/* slider dots */
 
 .slick-dots li button:before {
     font-family: slick;
@@ -984,7 +974,7 @@ select {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin-top: 40px;
-    
+
 }
 
 .slick-dots li.slick-active button:before {
@@ -1055,7 +1045,7 @@ select {
 
 }
 
-@media (min-width:992px) {
+@media (min-width:1024.11px) {
     .min_vh100 {
         min-height: 100vh;
     }
