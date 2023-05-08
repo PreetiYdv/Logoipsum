@@ -352,7 +352,7 @@ body {
 .semi-circle {
     width: 100px;
     height: 100px;
-    background-color: #;
+    background-color: #e7e9ee;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
 }
@@ -360,7 +360,7 @@ body {
 .semi-circle-2 {
     width: 100px;
     height: 00px;
-    background-color: #FFECEE;
+    background-color: #E7E9EE;
     border-radius: 50%;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
