@@ -326,12 +326,17 @@ body {
     position: relative;
 }
 
+.max-width-300px {
+    max-width: 300px;
+}
+
 .leader_img::before {
     content: '';
     background: rgb(255, 255, 255, 0.4);
     width: 50%;
     height: 100%;
     left: -125%;
+    filter: blur(20px);
     top: 0%;
     transform: skew(45deg);
     position: absolute;
@@ -340,6 +345,31 @@ body {
 
 .leader_img:hover::before {
     left: 150%;
+    filter: blur(20px);
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: #FFECEE;
+    border-radius: 50%;
+}
+
+.semi-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+.semi-circle-2 {
+    width: 100px;
+    height: 00px;
+    background-color: #FFECEE;
+    border-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
 }
 
 /* PORTFOLIO PAGE */
@@ -853,6 +883,10 @@ footer .box h3::before {
     margin-top: 30px;
 }
 
+.mb_20{
+    margin-bottom: 20px;
+}
+
 .button-padding {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -889,18 +923,14 @@ footer .box h3::before {
     height: 6px;
 }
 
-/* 
-
-
-.my-slider .slick-slide:not(.slick-active) {
-    opacity: 0.8;
-    transform: scaleY(.8);
-
-} */
 
 .border-radius-10px {
     border-radius: 20px !important;
 
+}
+
+.p_30{
+    padding: 30px;
 }
 
 .bg-color-light-pink {
