@@ -244,7 +244,7 @@ body {
     max-width: 500px;
 }
 
-.border_10{
+.border_10 {
     border-radius: 10px;
 }
 
@@ -558,9 +558,6 @@ body {
     color: var(--color-black-shad);
     font-family: 'raleway';
     font-weight: 500;
-
-
-
 }
 
 .form_section div input::placeholder {
@@ -576,6 +573,15 @@ body {
 
 }
 
+.form_card_hover:hover .form_card_icon path {
+    fill: white !important;
+
+}
+
+.form_card_hover{
+    cursor: pointer;
+}
+
 .form_card_icon {
     background-color: var(--bg-off-white);
     padding: 15px;
@@ -583,15 +589,9 @@ body {
     transition: all 300ms linear;
 }
 
-.form_card_icon:hover path {
-    fill: white;
-
+.form_card_hover:hover .form_card_icon {
+    background-color: #FF3E54 !important;
 }
-
-.form_card_icon:hover {
-    background-color: #FF3E54;
-}
-
 
 .form_s_card div h4 {
     font-family: 'Raleway';
@@ -893,7 +893,7 @@ footer .box h3::before {
     margin-top: 30px;
 }
 
-.mb_20{
+.mb_20 {
     margin-bottom: 20px;
 }
 
@@ -939,7 +939,7 @@ footer .box h3::before {
 
 }
 
-.p_30{
+.p_30 {
     padding: 30px;
 }
 
@@ -1018,7 +1018,7 @@ select {
     content: '•';
     text-align: center;
     opacity: 1 !important;
-    color: #fff ;
+    color: #fff;
     border: 1px solid #FF3E54;
     border-radius: 50%;
     -webkit-font-smoothing: antialiased;
