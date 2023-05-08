@@ -322,6 +322,10 @@ body {
     position: relative;
 }
 
+.max-width-300px {
+    max-width: 300px;
+}
+
 .leader_img::before {
     content: '';
     background: rgb(255, 255, 255, 0.4);
@@ -336,6 +340,30 @@ body {
 
 .leader_img:hover::before {
     left: 150%;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: #FFECEE;
+    border-radius: 50%;
+}
+
+.semi-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+.semi-circle-2 {
+    width: 100px;
+    height: 00px;
+    background-color: #FFECEE;
+    border-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
 }
 
 /* PORTFOLIO PAGE */
@@ -788,7 +816,11 @@ footer ul li a:hover::after {
     color: black;
 
 }
-.max-width-690px{max-width: 690px;}
+
+.max-width-690px {
+    max-width: 690px;
+}
+
 .footer_btn {
     padding: 12px 24px;
     border-radius: 10px;
@@ -880,6 +912,7 @@ footer .box h3::before {
     width: 20px;
     height: 6px;
 }
+
 /* 
 
 
