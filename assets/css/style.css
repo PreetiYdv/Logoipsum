@@ -578,7 +578,7 @@ body {
 
 }
 
-.form_card_hover{
+.form_card_hover {
     cursor: pointer;
 }
 
@@ -1025,6 +1025,10 @@ select {
     -moz-osx-font-smoothing: grayscale;
     margin-top: 40px;
 
+}
+
+.slick-dots li {
+    padding-right: 30px !important;
 }
 
 .slick-dots li.slick-active button:before {
